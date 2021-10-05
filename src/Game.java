@@ -38,8 +38,9 @@ public class Game {
             dog.tamagotchiSound();
             dog.printDogFigure();
 
+
             //Game Rounds
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < 8; i++) {
 
                 dog.printPlayChoices();
                 int playersChoice = scanner.nextInt();
@@ -92,10 +93,10 @@ public class Game {
 
 
             //Game Rounds
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < 8; i++) {
 
                 cat.printPlayChoices();
-                int playersChoice = 6;
+                int playersChoice = scanner.nextInt();
 
                 if (playersChoice == 1){
                     cat.feed();

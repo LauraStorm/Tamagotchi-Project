@@ -18,7 +18,7 @@ public class Tamagotchi {
     }
 
     public void feed(){
-        System.out.println("yaay! " + this.name + " loves food!\nNow " + this.name + " is full and happy!\n");
+        System.out.println("yaay! " + this.name + " loves food🍴!\nNow " + this.name + " is full and happy!\n");
     }
 
     public void sleep(){
@@ -27,7 +27,7 @@ public class Tamagotchi {
     }
 
     public void play(){
-        System.out.println(this.name + " is running around and having fun with a ball\n");
+        System.out.println(this.name + " is running around and having fun with a ball ⚽️\n");
     }
 
     public void walk(){

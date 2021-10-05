@@ -15,16 +15,16 @@ public class Dog extends Tamagotchi{
         Scanner scanner = new Scanner(System.in);
 
         System.out.println(this.name + " is out to get new toys. Theres alot of options! What would you like to buy?\nPress the number of your choice:");
-        System.out.println("1. stuffed animal\n2. bone\n3. ball");
+        System.out.println("1. stuffed animal 🧸\n2. bone 🦴\n3. ball ⚽");
 
         int getToyPick = scanner.nextInt();
 
         if (toyChoice == 1){
-            System.out.println("A stuffed animal! " + this.name + " loves stuffed animals! Good choice.");
+            System.out.println("A stuffed animal 🧸! " + this.name + " loves stuffed animals! Good choice.");
         }else if (toyChoice == 2){
-            System.out.println("yummy, a bone! " + this.name + " loves sticking his teeth in bones! Good choice.");
+            System.out.println("yummy, a bone 🦴! " + this.name + " loves sticking his teeth in bones! Good choice.");
         }else if (toyChoice == 3){
-            System.out.println("A ball! Nice! " + this.name + " loves running after the ball! Good choice.");
+            System.out.println("A ball ⚽️! Nice! " + this.name + " loves running after the ball! Good choice.");
         }else{
             System.out.println("Oh no, you forgot your money at home! Better luck next time..");
         }

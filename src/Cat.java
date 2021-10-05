@@ -10,6 +10,7 @@ public class Cat extends Tamagotchi{
         this.numbered = numbered;
     }
 
+    //Methods
     public void printCatFigure(){
 
         System.out.println("");
@@ -29,16 +30,16 @@ public class Cat extends Tamagotchi{
         Scanner scanner = new Scanner(System.in);
 
         System.out.println(this.name + " is out to get new toys. Theres alot of options! What would you like to buy?\nPress the number of your choice:");
-        System.out.println("1. garn wrench🧶\n2. fish\n3. drill stick");
+        System.out.println("1. ball of yarn 🧶\n2. fish 🐠\n3. drill stick 🎣");
 
         int getToyPick = scanner.nextInt();
 
         if (getToyPick == 1){
-            System.out.println("A garn wrench! " + this.name + " loves garn wrenches! Good choice.");
+            System.out.println("A ball of yarn 🧶! " + this.name + " loves balls of yarn! Good choice.");
         }else if (getToyPick == 2){
-            System.out.println("yummy, fish! " + this.name + " loves sticking his teeth in fishes! Good choice.");
+            System.out.println("yummy, fish 🐠! " + this.name + " loves sticking teeth in fish! Good choice.");
         }else if (getToyPick == 3){
-            System.out.println("A drill stick! Nice! " + this.name + " loves running after the feather at the end of the drill stick! Good choice.");
+            System.out.println("A drill stick 🎣! Nice! " + this.name + " loves running after the feather at the end of the drill stick! Good choice.");
         }else{
             System.out.println("Oh no, you forgot your money at home! Better luck next time..");
         }
